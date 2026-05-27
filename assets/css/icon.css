@@ -1,0 +1,20 @@
+.icon-plantao::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSI+CiAgPHJlY3QgeD0iMi41IiB5PSIzLjUiIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNCIgcng9IjIiIHN0cm9rZT0iI2IwYzRkNCIgc3Ryb2tlLXdpZHRoPSIxLjIiLz4KICA8bGluZSB4MT0iMi41IiB5MT0iOCIgeDI9IjE3LjUiIHkyPSI4IiBzdHJva2U9IiNiMGM0ZDQiIHN0cm9rZS13aWR0aD0iMS4yIi8+CiAgPGxpbmUgeDE9IjYuNSIgeTE9IjEuNSIgeDI9IjYuNSIgeTI9IjUiIHN0cm9rZT0iI2IwYzRkNCIgc3Ryb2tlLXdpZHRoPSIxLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxsaW5lIHgxPSIxMy41IiB5MT0iMS41IiB4Mj0iMTMuNSIgeTI9IjUiIHN0cm9rZT0iI2IwYzRkNCIgc3Ryb2tlLXdpZHRoPSIxLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjciIGN5PSIxMyIgcj0iMS4yIiBmaWxsPSIjYjBjNGQ0Ii8+CiAgPGNpcmNsZSBjeD0iMTAiIGN5PSIxMyIgcj0iMS4yIiBmaWxsPSIjYjBjNGQ0Ii8+CiAgPGNpcmNsZSBjeD0iMTMiIGN5PSIxMyIgcj0iMS4yIiBmaWxsPSIjYjBjNGQ0Ii8+Cjwvc3ZnPg==");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    margin-left: -32px;
+    top: 9px;
+    vertical-align: middle;
+}
+
+.menu-main .icon-plantao:hover::before,
+.menu-main .icon-plantao:focus::before,
+.menu-main li.is-selected .icon-plantao::before {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSI+CiAgPHJlY3QgeD0iMi41IiB5PSIzLjUiIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNCIgcng9IjIiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxLjIiLz4KICA8bGluZSB4MT0iMi41IiB5MT0iOCIgeDI9IjE3LjUiIHkyPSI4IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMS4yIi8+CiAgPGxpbmUgeDE9IjYuNSIgeTE9IjEuNSIgeDI9IjYuNSIgeTI9IjUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxsaW5lIHgxPSIxMy41IiB5MT0iMS41IiB4Mj0iMTMuNSIgeTI9IjUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjciIGN5PSIxMyIgcj0iMS4yIiBmaWxsPSIjZmZmZmZmIi8+CiAgPGNpcmNsZSBjeD0iMTAiIGN5PSIxMyIgcj0iMS4yIiBmaWxsPSIjZmZmZmZmIi8+CiAgPGNpcmNsZSBjeD0iMTMiIGN5PSIxMyIgcj0iMS4yIiBmaWxsPSIjZmZmZmZmIi8+Cjwvc3ZnPg==");
+}

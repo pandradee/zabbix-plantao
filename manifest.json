@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2.0,
+    "id": "plantao",
+    "name": "Escala de Plantão",
+    "version": "1.0.0",
+    "author": "Pedro Santiago - GRT",
+    "url": "https://www.linkedin.com/in/pedro-santiago-9491b9221/",
+    "description": "Gerenciamento de plantão com atualização automática de media types LIGMEE",
+    "namespace": "Plantao",
+    "actions": {
+        "plantao.list": {
+            "class": "PlantaoList",
+            "view": "plantao.list"
+        },
+        "plantao.test": {
+            "class": "PlantaoTest",
+            "view": "plantao.test"
+        },
+        "plantao.save": {
+            "class": "PlantaoSave"
+        },
+        "plantao.delete": {
+            "class": "PlantaoDelete"
+        },
+        "plantao.apply": {
+            "class": "PlantaoApply"
+        },
+        "phones.list": {
+            "class": "PhonesList",
+            "view": "phones.list"
+        },
+        "phones.save": {
+            "class": "PhonesSave"
+        }
+    }
+}
